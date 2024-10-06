@@ -1,0 +1,13 @@
+prefix=/Users/souravnandi/Desktop/Python/ATS_tracking_resume/venv
+exec_prefix=/Users/souravnandi/Desktop/Python/ATS_tracking_resume/venv
+libdir=/Users/souravnandi/Desktop/Python/ATS_tracking_resume/venv/lib
+sharedlibdir=/Users/souravnandi/Desktop/Python/ATS_tracking_resume/venv/lib
+includedir=/Users/souravnandi/Desktop/Python/ATS_tracking_resume/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
